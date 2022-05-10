@@ -3,7 +3,7 @@ body{
     padding : 0px;
     display : grid;
     grid-template-columns: 300px 950px 275px;
-    grid-template-rows: 150px 700px;
+    grid-template-rows: 180px 700px;
     
 }
 
@@ -15,7 +15,7 @@ strong{
     font-size: larger;
 }
 
-hr,h3{
+hr,h3,h2,h5{
     margin : 0px;
 }
 .header{
@@ -23,7 +23,7 @@ hr,h3{
     grid-column : 2 / 4;
     display: grid;
     grid-template-columns: 810px 325px;
-    grid-template-rows: 30px 60px;
+    grid-template-rows: 60px 60px;
     padding:20px;
     gap:15px;
 }
@@ -123,18 +123,14 @@ hr,h3{
     padding:20px;
 }
 
-.header  :nth-last-child(2){
-    background-color: black;
+.bottom{
+    background-color: #FFFFFF;
     display : grid;
-    grid-template-columns: 40px 250px;
-    grid-template-rows:  45px;
-    padding : 10px;
+    grid-template-columns: 80px 250px;
+    grid-template-rows:  60px;
     gap:15px;
 }
 
-.kitem{
-    background-color: blue;
-}
 
 .side:first-child{
     font-size:xx-large;
@@ -174,4 +170,34 @@ img{
 .top{
     display : flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+.kitem{
+    background-color: #FFFFFF;
+    margin-left: 15px;
+}
+
+.micon{
+    width: 60px;
+}
+
+.last{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button{
+
+    border : none;
+    width: 80px;
+    padding : 8px;
+    background-color: #1992D4;
+    color: #FFFFFF;
+    font-size:medium;
+    border-radius: 18px;
+}
+
+
+
